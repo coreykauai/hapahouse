@@ -1,5 +1,5 @@
 body {
-  background-image: url(public/pierre-chatel-innocenti-muMR2IhCbZ0-unsplash.jpg);
+  background-image: url(/pierre-chatel-innocenti-muMR2IhCbZ0-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -39,7 +39,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 10%;
-  z-index: 5;
+  z-index: 2;
   background-color: #6d6d6d83;
 }
 
@@ -116,13 +116,21 @@ body {
   height: 90%;
   bottom: 10%;
   right: 0;
+  z-index: 2;
 }
 .menu-open {
   animation: expand 1s ease-in-out forwards;
-  display: block;
+  display: flex;
+  align-items: end;
 }
 .menu-close {
   animation: collapse 1s ease-in-out forwards;
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
 }
 
 .hamburger-react {

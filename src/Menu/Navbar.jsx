@@ -9,13 +9,11 @@ export default function Navbar() {
   return (
     <>
       <section className={`mobile-menu ${isOpen ? "menu-open" : "menu-close"}`}>
-        <ul className="">
-          <li>
-            <NavLink to="/products">Products</NavLink>
-            <NavLink to="/locate">Find Us</NavLink>
-            <NavLink to="/story">Story</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
+        <ul className="mobile-links">
+          <NavLink to="/products">Products</NavLink>
+          <NavLink to="/locate">Find Us</NavLink>
+          <NavLink to="/story">Story</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </ul>
       </section>
 
