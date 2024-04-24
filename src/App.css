@@ -9,9 +9,10 @@ body {
   background-attachment: scroll, local;
 }
 
-/* .main {
+.main {
+  position: relative;
   overflow-y: scroll;
-} */
+}
 
 .pic {
   display: flex;
