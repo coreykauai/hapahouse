@@ -1,24 +1,45 @@
 body {
-  background-image: url(/pierre-chatel-innocenti-muMR2IhCbZ0-unsplash.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 200;
+  background-image: url(/anna-sullivan-MfC0v78kKbo-unsplash.jpg);
+  background-size: 200%;
+  background-position: top;
+  font-family: "Urbanist", sans-serif;
   width: 100vw;
   height: 100vh;
-  background-attachment: scroll, local;
+  background-attachment: fixed;
+}
+
+@keyframes main {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100%;
+  }
 }
 
 .main {
-  position: relative;
-  overflow-y: scroll;
+  animation: main 1s linear;
+  /* Pause the animation */
+  animation-play-state: paused;
+  /* Bind the animation to scroll */
+  animation-delay: y scroll;
+  /* These last 2 properites clean up overshoot weirdness */
+  /* animation-iteration-count: 1;
+  animation-fill-mode: both; */
+}
+
+h3 {
+  margin: 0;
+  font-weight: 100;
 }
 
 .pic {
   display: flex;
   justify-content: center;
-  background-color: #ffabd2;
-  margin: 7rem 3rem 3rem 3rem;
+  /* background-color: #ffabd2; */
+  background-color: rgba(255, 255, 255, 0.466);
+  margin: 5rem 3rem 3rem 3rem;
 }
 
 .main-pic {
@@ -30,120 +51,41 @@ body {
   width: 5rem;
 }
 
-.navigation {
+.pic-er {
   display: flex;
-  overflow: hidden;
-  justify-content: space-between;
-  padding: 0 15px 0 15px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 10%;
-  z-index: 2;
-  background-color: #6d6d6d83;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+  background-color: rgba(196, 196, 196, 0.347);
 }
 
-.nav-menu {
-  list-style-type: none; /* Removes bullets from the list */
-  margin: 0;
-  padding: 0;
-  display: none;
-}
-
-.nav-menu li a {
-  display: block; /* Style links to fill the list item area */
-  color: white; /* Text color */
-  text-align: center;
-  padding: 14px 16px; /* Spacing inside links */
-  text-decoration: none; /* Remove underlines from links */
-  font-size: 1.5rem;
-}
-
-/* Change link color on hover */
-.nav-menu li a:hover {
-  color: black;
-}
-
-.logo:hover {
-  fill: black;
-}
-
-.active {
-  font-weight: 500;
-}
-
-.navigation button {
-  font-size: 1.2rem;
-}
-
-@keyframes expand {
-  from {
-    width: 0px;
-    height: 0%;
-    background-color: rgba(238, 130, 238, 0%);
-    border-left: solid 1px rgba(245, 245, 245, 0%);
-  }
-
-  to {
-    width: clamp(300px, 100%, 600px);
-    height: 90%;
-    background-color: rgba(238, 130, 238, 30%);
-    border-left: solid 1px rgba(245, 245, 245, 100%);
-  }
-}
-
-@keyframes collapse {
-  from {
-    background-color: rgba(238, 130, 238, 30%);
-    border-left: solid 1px rgba(245, 245, 245, 100%);
-    width: clamp(300px, 100%, 600px);
-    display: block;
-  }
-
-  to {
-    width: 0px;
-    background-color: rgba(238, 130, 238, 0%);
-    border-left: solid 1px rgba(245, 245, 245, 0%);
-    display: none;
-  }
-}
-
-.mobile-menu {
-  display: none;
-  position: fixed;
-  padding: 0;
-  margin: 0;
-  height: 90%;
-  bottom: 10%;
-  right: 0;
-  z-index: 2;
-}
-.menu-open {
-  animation: expand 1s ease-in-out forwards;
-  display: flex;
-  align-items: end;
-}
-.menu-close {
-  animation: collapse 1s ease-in-out forwards;
-}
-
-.mobile-links {
+.description {
   display: flex;
   flex-direction: column;
-  font-size: 30px;
+  align-items: center;
+  font-size: 28px;
 }
 
-.hamburger-react {
-  color: rgb(255, 255, 255);
-  margin: 15px 30px 0 0;
+.pics-clickable {
+  width: 80vw;
+  height: 40vh;
 }
 
-.large {
-  display: none;
+.locate-us {
+  width: 100%;
+  background-color: #ffabd2b4;
+}
+
+.spacer {
+  width: 100%;
+  height: 5rem;
 }
 
 @media screen and (min-width: 800px) {
+  body {
+    background-size: cover;
+  }
+
   .navigation {
     top: 0;
     left: 0;

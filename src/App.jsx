@@ -13,8 +13,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "../src/styles.css";
 
-// import required modules
-
 function App() {
   return (
     <>
