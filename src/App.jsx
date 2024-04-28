@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
-import Navbar from "./Menu/Navbar";
 import { Route, Routes } from "react-router-dom";
+import Navbar from "./Menu/Navbar";
 import LocatePage from "./Pages/LocatePage";
 import ContactPage from "./Pages/ContactPage";
 import ProductPage from "./Pages/ProductPage";

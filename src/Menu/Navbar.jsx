@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Spin as Hamburger } from "hamburger-react";
 import "./Navbar.css";
-
-import Hamburger from "hamburger-react";
 
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
@@ -46,6 +45,7 @@ export default function Navbar() {
         </NavLink>
 
         <ul className="large">
+          <NavLink to="/">Home</NavLink>
           <NavLink to="/products">Products</NavLink>
           <NavLink to="/locate">Find Us</NavLink>
           <NavLink to="/story">Story</NavLink>
@@ -53,12 +53,6 @@ export default function Navbar() {
         </ul>
 
         <Hamburger toggled={isOpen} toggle={toggleMenu} className="taco" />
-        {/* 
-        {isOpen && (
-          <div className="overlay">
-            <nav className="silde-menu"></nav>
-          </div>
-        )} */}
       </nav>
     </>
   );

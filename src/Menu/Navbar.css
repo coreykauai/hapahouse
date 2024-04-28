@@ -54,18 +54,18 @@
   }
 
   to {
-    width: 50%;
+    width: 75%;
     height: 50%;
-    background-color: #ffabd2e4;
+    background-color: #000000;
     border-left: solid 10px rgba(245, 245, 245, 100%);
   }
 }
 
 @keyframes collapse {
   from {
-    background-color: #ffabd2e4;
+    background-color: #000000;
     border-left: solid 10px rgba(245, 245, 245, 100%);
-    width: 50%;
+    width: 75%;
     height: 50%;
     display: block;
   }
@@ -130,4 +130,39 @@
 
 .large {
   display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .navigation {
+    top: 0;
+    left: 0;
+    background-color: #ffabd289;
+    /* margin-bottom: 5rem; */
+  }
+
+  .nav-menu {
+    display: flex;
+    position: relative;
+    top: 0;
+  }
+
+  .large {
+    display: flex;
+    font-size: 25px;
+    font-weight: 200;
+    gap: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  a:hover {
+    text-shadow: 0 0 1px white;
+  }
+
+  .hamburger-react {
+    display: none;
+  }
 }

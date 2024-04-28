@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function AboutPage() {
-  return <div>About dem</div>;
+  return <div className="story">About dem</div>;
 }

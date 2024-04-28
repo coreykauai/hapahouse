@@ -1,11 +1,80 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
+import ImageViewer from "react-simple-image-viewer";
 
 export default function ProductPage() {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+  const images = [
+    "/Pics/IMG_1131.jpg",
+    "/Pics/IMG_1141.jpg",
+    "/Pics/IMG_1147.jpg",
+    "/Pics/IMG_1149.jpg",
+    "/Pics/IMG_1335.jpg",
+    "/Pics/IMG_1346.jpg",
+    "/Pics/IMG_1368.jpg",
+    "/Pics/IMG_1352-Edit.jpeg",
+    "/Pics/IMG_1374-Edit.jpg",
+    "/Pics/IMG_1396-Edit.jpg",
+    "/Pics/IMG_1402-Edit.jpg",
+    "/Pics/IMG_1443-Edit.jpg",
+    "/Pics/IMG_1417.jpg",
+    "/Pics/IMG_1943.JPG",
+    "/Pics/IMG_4191.jpg",
+    "/Pics/IMG_4192.jpg",
+    "/Pics/IMG_4193.jpg",
+    "/Pics/IMG_4195.jpg",
+    "/Pics/IMG_4196.jpg",
+    "/Pics/IMG_4198.jpg",
+    "/Pics/IMG_4206.jpg",
+    "/Pics/IMG_4215.jpg",
+    "/Pics/IMG_4217.jpg",
+    "/Pics/IMG_4220.jpg",
+    "/Pics/Screenshot 2024-04-25 at 6.38.42 PM.png",
+  ];
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
+
   return (
-    <div>
+    <div className="product-container">
       <h1>Products</h1>
 
-      <img src="public/Pics/IMG_1141.heic" alt="" />
+      <div className="products">
+        {images.map((src, index) => (
+          <img
+            src={src}
+            onClick={() => openImageViewer(index)}
+            width="300"
+            key={index}
+            style={{ margin: "2px" }}
+            alt=""
+          />
+        ))}
+
+        {isViewerOpen && (
+          <ImageViewer
+            src={images}
+            currentIndex={currentImage}
+            onClose={closeImageViewer}
+            disableScroll={true}
+            backgroundStyle={{
+              backgroundColor: "rgba(0,0,0,0.5)",
+            }}
+            closeOnClickOutside={true}
+          />
+        )}
+      </div>
     </div>
   );
 }
+
+// const container = document.getElementById("app");
+// const root = createRoot(container);
+// root.render(<ProductPage />);

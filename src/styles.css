@@ -38,3 +38,17 @@ body {
 .swiper-pagination-bullet-active {
   background: #f94151;
 }
+
+@media screen and (min-width: 800px) {
+  .swiper {
+    height: 30rem;
+  }
+
+  .swiper-slide img {
+    object-fit: contain;
+  }
+
+  .swiper-slide {
+    background: rgba(255, 255, 255, 0);
+  }
+}
