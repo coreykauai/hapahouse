@@ -12,7 +12,7 @@ export default function HomePage() {
 
       <Swipers />
 
-      <Fade cascade damping={0.3}>
+      <Fade cascade damping={0.2}>
         <div className="opener">NEW Products HANDMADE on KAUAI WEEKLY!!</div>
 
         <div className="pic-selector">

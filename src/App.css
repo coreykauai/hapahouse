@@ -1,11 +1,16 @@
 body {
   /* background-image: url(/anna-sullivan-MfC0v78kKbo-unsplash.jpg); */
   background-size: 200%;
-  /* background-position: ; */
+  /* background-position: top; */
   font-family: "Urbanist", sans-serif;
   width: 100vw;
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 h3 {
@@ -119,6 +124,7 @@ h3 {
 
 .products img {
   cursor: pointer;
+  object-fit: contain;
 }
 
 .product-container {
@@ -135,6 +141,50 @@ h3 {
 .links {
   height: 3rem;
   width: 3rem;
+}
+
+.story {
+  background-image: url("/kira-laktionov-z1PAduRYGQs-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.about-us {
+  margin: 10rem 5rem 0 5rem;
+  backdrop-filter: blur(7px);
+  position: relative;
+  top: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+.location-page {
+  background-image: url("/kira-laktionov-z1PAduRYGQs-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 80dvh;
+}
+
+.location-title {
+  font-size: 50px;
+}
+
+.find-us {
+  margin: 10rem 5rem 0 5rem;
+  backdrop-filter: blur(7px);
+  position: relative;
+  top: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+.store-list li {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
 }
 
 @media screen and (min-width: 800px) {

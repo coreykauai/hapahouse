@@ -9,7 +9,7 @@ body {
 .swiper {
   width: 100%;
   height: 25rem;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 1rem 2rem 1rem;
 }
 
 .swiper-slide {
@@ -41,7 +41,12 @@ body {
 
 @media screen and (min-width: 800px) {
   .swiper {
-    height: 30rem;
+    height: 90dvh;
+    background-color: #6969693a;
+  }
+
+  .swiper-pic {
+    cursor: pointer;
   }
 
   .swiper-slide img {
@@ -50,5 +55,10 @@ body {
 
   .swiper-slide {
     background: rgba(255, 255, 255, 0);
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: rgb(208, 208, 208);
   }
 }

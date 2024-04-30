@@ -15,20 +15,20 @@ export default function ProductPage() {
     "/Pics/IMG_1352-Edit.jpeg",
     "/Pics/IMG_1374-Edit.jpg",
     "/Pics/IMG_1396-Edit.jpg",
-    "/Pics/IMG_1402-Edit.jpg",
     "/Pics/IMG_1443-Edit.jpg",
+    "/Pics/IMG_1402-Edit.jpg",
     "/Pics/IMG_1417.jpg",
     "/Pics/IMG_1943.JPG",
     "/Pics/IMG_4191.jpg",
+    "/Pics/IMG_4198.jpg",
     "/Pics/IMG_4192.jpg",
     "/Pics/IMG_4193.jpg",
-    "/Pics/IMG_4195.jpg",
-    "/Pics/IMG_4196.jpg",
-    "/Pics/IMG_4198.jpg",
-    "/Pics/IMG_4206.jpg",
     "/Pics/IMG_4215.jpg",
     "/Pics/IMG_4217.jpg",
+    "/Pics/IMG_4206.jpg",
     "/Pics/IMG_4220.jpg",
+    "/Pics/IMG_4196.jpg",
+    "/Pics/IMG_4195.jpg",
     "/Pics/Screenshot 2024-04-25 at 6.38.42 PM.png",
   ];
 
@@ -49,6 +49,7 @@ export default function ProductPage() {
       <div className="products">
         {images.map((src, index) => (
           <img
+            className={"product-pics"}
             src={src}
             onClick={() => openImageViewer(index)}
             width="300"
