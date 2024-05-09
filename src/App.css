@@ -1,11 +1,13 @@
+#root {
+  height: 100dvh;
+  width: 100dvw;
+}
+
 body {
-  /* background-image: url(/anna-sullivan-MfC0v78kKbo-unsplash.jpg); */
   background-size: 200%;
-  /* background-position: top; */
   font-family: "Urbanist", sans-serif;
   width: 100vw;
   height: 100vh;
-  /* background-attachment: fixed; */
 }
 
 a {
@@ -18,95 +20,13 @@ h3 {
   font-weight: 100;
 }
 
-.first-pic {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(0, 0, 0);
-  margin: 3rem 3rem 3rem 3rem;
+ul {
+  list-style: none;
 }
 
-.main-pic {
-  width: 20rem;
-}
-
-.logo {
-  width: 5rem;
-}
-
-.opener {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
-  margin: 3rem 1rem 2rem 1rem;
-  text-shadow: 0 0 10px #ffffffb4;
-}
-
-.pic-er {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 5rem;
-  background-color: rgb(0, 0, 0);
-}
-
-.description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 28px;
+.kdd {
   color: white;
-}
-
-.pics-clickable {
-  width: 80vw;
-}
-
-.locate-us {
-  width: 100%;
-  background-color: #ffabd2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 5rem 0 3rem 0;
-  padding: 3rem 5rem 3rem 5rem;
-  animation: bgcolor 30s forwards 5s infinite ease-in-out;
-}
-
-@keyframes bgcolor {
-  0% {
-    background-color: #ffabd2;
-  }
-  15% {
-    background-color: #ffabd2;
-  }
-  25% {
-    background-color: #f94145;
-  }
-  45% {
-    background-color: #f94145;
-  }
-  50% {
-    background-color: #f0f029;
-  }
-  65% {
-    background-color: #f0f029;
-  }
-  75% {
-    background-color: #6c8708;
-  }
-  85% {
-    background-color: #6c8708;
-  }
-  100% {
-    background-color: #ffabd2;
-  }
-}
-
-.locate-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
+  font-size: 0.7rem;
 }
 
 .spacer {
@@ -114,86 +34,47 @@ h3 {
   height: 5rem;
 }
 
-.products {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 3rem;
-  margin-bottom: 7rem;
-}
-
-.products img {
-  cursor: pointer;
-  object-fit: contain;
-}
-
-.product-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.link-container {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 2rem;
-}
-
 .links {
-  height: 3rem;
-  width: 3rem;
+  height: 7rem;
+  width: 7rem;
 }
 
-.story {
-  background-image: url("/kira-laktionov-z1PAduRYGQs-unsplash.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+.overlayer {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: saturate(0) brightness(175%);
 }
 
-.about-us {
-  margin: 10rem 5rem 0 5rem;
-  backdrop-filter: blur(7px);
-  position: relative;
-  top: 3rem;
-  color: rgb(255, 255, 255);
+.desktop-footer {
+  display: none;
 }
 
-.location-page {
-  background-image: url("/kira-laktionov-z1PAduRYGQs-unsplash.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  height: 80dvh;
+.foota {
+  display: none;
 }
 
-.location-title {
-  font-size: 50px;
-}
-
-.find-us {
-  margin: 10rem 5rem 0 5rem;
-  backdrop-filter: blur(7px);
-  position: relative;
-  top: 3rem;
-  color: rgb(255, 255, 255);
-}
-
-.store-list li {
-  font-size: 30px;
+.footer-visible {
+  animation: fadein 2s ease-in-out;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  align-items: flex-end;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-ul {
-  list-style: none;
-}
-
+/* Computer display*/
 @media screen and (min-width: 800px) {
   body {
     background-size: cover;
   }
 
   .first-pic {
-    margin: 15rem 5rem 5rem 5rem;
+    margin: 4.5rem 5rem 5rem 5rem;
   }
 
   .opener {
@@ -235,12 +116,39 @@ ul {
     margin-top: 10rem;
   }
 
+  .about-page {
+    height: 80dvh;
+  }
+
   .product-container {
-    margin-top: 10rem;
+    margin-top: 4.5rem;
   }
 
   .products {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .links {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .footer-visible {
+    display: none;
+  }
+
+  .desktop-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .last-spacer {
+    display: none;
+  }
+
+  .kdd {
+    text-shadow: 0 0 10px black;
+    font-size: 1rem;
   }
 }

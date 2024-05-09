@@ -3,12 +3,14 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Spin as Hamburger } from "hamburger-react";
 import "./Navbar.css";
+import Foota from "./Foota";
 
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
   const toggleMenu = () => {
     setOpen(!isOpen);
   };
+
   return (
     <>
       <section className={`mobile-menu ${isOpen ? "menu-open" : "menu-close"}`}>
@@ -43,6 +45,8 @@ export default function Navbar() {
             className="logo"
           />
         </NavLink>
+
+        <Foota />
 
         <ul className="large">
           <NavLink to="/">Home</NavLink>

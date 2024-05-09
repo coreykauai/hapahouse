@@ -1,5 +1,6 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
+import "./productPage.css";
 
 export default function ProductPage() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -44,7 +45,8 @@ export default function ProductPage() {
 
   return (
     <div className="product-container">
-      <h1>Products</h1>
+      <div className="spacer"></div>
+      <h1 className="products-title">What we got this MONTH!</h1>
 
       <div className="products">
         {images.map((src, index) => (
@@ -75,7 +77,3 @@ export default function ProductPage() {
     </div>
   );
 }
-
-// const container = document.getElementById("app");
-// const root = createRoot(container);
-// root.render(<ProductPage />);

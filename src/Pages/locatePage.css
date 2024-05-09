@@ -1,0 +1,40 @@
+.location-page {
+  height: 100%;
+  background-image: url("/kira-laktionov-z1PAduRYGQs-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.location-title {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+  padding: 0 1rem 0 1rem;
+  background-color: rgba(222, 222, 222, 0.7);
+}
+
+.find-us {
+  margin: 5rem 2rem 0 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.store-list ul {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 10px;
+}
+
+.store-list-logo {
+  width: 100%;
+}
+
+.sell-hapa {
+  font-size: 30px;
+  font-weight: 200;
+  padding: 15px;
+  background-color: black;
+  text-align: center;
+}

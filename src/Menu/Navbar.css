@@ -56,14 +56,14 @@
   to {
     width: 75%;
     height: 50%;
-    background-color: #000000;
+    background-color: #000000d5;
     border-left: solid 10px rgba(245, 245, 245, 100%);
   }
 }
 
 @keyframes collapse {
   from {
-    background-color: #000000;
+    background-color: #000000d5;
     border-left: solid 10px rgba(245, 245, 245, 100%);
     width: 75%;
     height: 50%;

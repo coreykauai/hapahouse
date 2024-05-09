@@ -1,11 +1,13 @@
 import { useRef, useState } from "react";
 import { Route, Routes } from "react-router-dom";
+
 import Navbar from "./Menu/Navbar";
 import LocatePage from "./Pages/LocatePage";
 import ContactPage from "./Pages/ContactPage";
 import ProductPage from "./Pages/ProductPage";
 import AboutPage from "./Pages/AboutPage";
 import HomePage from "./Pages/HomePage";
+import Foota from "./Menu/Foota";
 import "normalize.css";
 import "./App.css";
 import "swiper/css";

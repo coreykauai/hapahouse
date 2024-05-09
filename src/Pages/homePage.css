@@ -1,0 +1,140 @@
+.main {
+  background-image: url(/anna-sullivan-MfC0v78kKbo-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: top right;
+  background-size: cover;
+}
+
+.first-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  padding: 3rem 0 3rem 0;
+}
+
+.main-pic {
+  width: 80%;
+  background-color: black;
+}
+
+.logo {
+  width: 5rem;
+}
+
+.opener {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 3rem 1rem 2rem 1rem;
+  text-shadow: 0 0 10px #ffffffb4;
+}
+
+.pic-er {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+  color: white;
+}
+
+.pics-clickable {
+  width: 80vw;
+}
+
+.locate-us {
+  width: 100%;
+  background-color: #ffabd2bb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 3rem;
+  animation: bgcolor 30s forwards 5s infinite ease-in-out;
+}
+
+.locate-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locate-text-lg {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 0 0 20px black;
+}
+
+.locate-text-sm {
+  font-size: 1.7rem;
+  margin: 0;
+  text-shadow: 0 0 20px black;
+}
+
+.locations-list-title {
+  font-size: 30px;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.695);
+  margin-bottom: 0;
+}
+
+.location-list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+  padding: 20px 0 0 20px;
+}
+
+.location-list {
+  font-size: 28px;
+  padding: 0;
+}
+
+.location-list li {
+  padding-bottom: 20px;
+  text-shadow: 0px 0px 5px black;
+}
+
+.link-container-home {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+@keyframes bgcolor {
+  0% {
+    background-color: #ffabd2bb;
+  }
+  15% {
+    background-color: #ffabd2bb;
+  }
+  25% {
+    background-color: #f94144bb;
+  }
+  45% {
+    background-color: #f94145bb;
+  }
+  50% {
+    background-color: #f0f029bb;
+  }
+  65% {
+    background-color: #f0f029bb;
+  }
+  75% {
+    background-color: #6c8708bb;
+  }
+  85% {
+    background-color: #6c8708bb;
+  }
+  100% {
+    background-color: #ffabd2bb;
+  }
+}
