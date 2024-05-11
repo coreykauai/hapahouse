@@ -1,7 +1,7 @@
 /* Contact Page */
 
 .contact-page {
-  background-image: url("/shawn-kenessey-Gjo5wE-W4oc-unsplash.jpg");
+  background-image: url("/nrd-_Xp_PU4xhCU-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: right;
@@ -20,10 +20,11 @@
   font-size: 3rem;
   font-weight: 300;
   color: white;
+  background-color: rgba(0, 0, 0, 0.213);
 }
 
 .contact-pics {
-  width: 7rem;
+  width: 5rem;
 }
 
 .general-questions a {
@@ -31,8 +32,34 @@
   font-size: 2rem;
   display: flex;
   justify-content: center;
-  background-color: rgba(241, 241, 241, 0.3);
+  background-color: rgba(241, 241, 241, 0.5);
   padding-bottom: 2rem;
+}
+
+.request-catalog a {
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(241, 241, 241, 0.5);
+  padding-bottom: 2rem;
+}
+
+.mail-to-sell {
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(241, 241, 241, 0.5);
+  padding-bottom: 2rem;
+}
+
+.contact-to-sell {
+  color: black;
+}
+
+.contact-link-mail {
+  width: 3rem;
 }
 
 .contact-link {
@@ -44,24 +71,4 @@
   display: flex;
   gap: 5rem;
   margin: 3rem 0 7rem 0;
-}
-
-.mail-to-sell-link {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.contact-to-sell {
-  color: black;
-  font-size: 2rem;
-}
-
-.mail-to-sell {
-  padding: 0 2rem 0 2rem;
-  background-color: rgba(241, 241, 241, 0.3);
-}
-
-.contact-link-mail {
-  width: 3rem;
 }

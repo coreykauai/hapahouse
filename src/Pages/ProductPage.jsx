@@ -1,5 +1,7 @@
 import { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
+import { Fade } from "react-awesome-reveal";
+
 import "./productPage.css";
 
 export default function ProductPage() {
@@ -45,35 +47,43 @@ export default function ProductPage() {
 
   return (
     <div className="product-container">
-      <div className="spacer"></div>
-      <h1 className="products-title">What we got this MONTH!</h1>
+      <Fade cascade damping={0.2}>
+        <div className="spacer"></div>
+        <h1 className="products-title">What we got this MONTH!</h1>
+      </Fade>
+      <Fade fraction={0}>
+        <div className="products">
+          {images.map((src, index) => (
+            <img
+              className={"product-pics"}
+              src={src}
+              onClick={() => openImageViewer(index)}
+              width="300"
+              key={index}
+              style={{ margin: "2px" }}
+              alt=""
+            />
+          ))}
 
-      <div className="products">
-        {images.map((src, index) => (
-          <img
-            className={"product-pics"}
-            src={src}
-            onClick={() => openImageViewer(index)}
-            width="300"
-            key={index}
-            style={{ margin: "2px" }}
-            alt=""
-          />
-        ))}
-
-        {isViewerOpen && (
-          <ImageViewer
-            src={images}
-            currentIndex={currentImage}
-            onClose={closeImageViewer}
-            disableScroll={true}
-            backgroundStyle={{
-              backgroundColor: "rgba(0,0,0,0.5)",
-            }}
-            closeOnClickOutside={true}
-          />
-        )}
-      </div>
+          {isViewerOpen && (
+            <ImageViewer
+              src={images}
+              currentIndex={currentImage}
+              onClose={closeImageViewer}
+              disableScroll={true}
+              backgroundStyle={{
+                backgroundColor: "rgba(0,0,0,0.5)",
+              }}
+              closeOnClickOutside={true}
+            />
+          )}
+        </div>
+        <div className="desktop-footer">
+          <a href="http://www.instagram.com/kauaidigitaldesigns">
+            <p className="kdd">© KauaiDigitalDesigns</p>
+          </a>
+        </div>
+      </Fade>
     </div>
   );
 }

@@ -74,11 +74,18 @@ ul {
   }
 
   .first-pic {
-    margin: 4.5rem 5rem 5rem 5rem;
+    padding-top: 7rem;
+  }
+
+  .main-pic {
+    height: 30rem;
   }
 
   .opener {
     margin: 10rem 5rem 8rem 5rem;
+    font-size: 5rem;
+    font-weight: 300;
+    background-color: rgba(219, 219, 219, 0.562);
   }
 
   .pics-clickable {
@@ -87,8 +94,18 @@ ul {
 
   .pic-er {
     width: fit-content;
+    height: 80dvh;
     display: flex;
     flex-direction: column;
+  }
+
+  .pic-er:hover {
+    opacity: 90%;
+    background-color: white;
+  }
+
+  .pic-er:hover .description {
+    color: black;
   }
 
   .product-pic {
@@ -108,20 +125,33 @@ ul {
     margin-top: 10rem;
   }
 
+  .location-title {
+    padding: 5rem 0 3rem 0;
+  }
+
   .story {
     margin-top: 10rem;
   }
 
-  .find-us {
-    margin-top: 10rem;
+  .about-us {
+    padding-top: 5rem;
   }
 
-  .about-page {
-    height: 80dvh;
+  .about-us-title {
+    padding: 5rem 0 3rem 0;
+  }
+
+  .store-list ul {
+    padding: 0;
+    flex-direction: row;
+  }
+
+  .store-list-logo {
+    max-width: 50dvw;
   }
 
   .product-container {
-    margin-top: 4.5rem;
+    padding-top: 4rem;
   }
 
   .products {
@@ -143,6 +173,12 @@ ul {
     justify-content: center;
   }
 
+  .sell-hapa {
+    width: fit-content;
+    border-radius: 0.5rem;
+    animation: movingbt 5s linear 1s infinite alternate;
+  }
+
   .last-spacer {
     display: none;
   }
@@ -150,5 +186,14 @@ ul {
   .kdd {
     text-shadow: 0 0 10px black;
     font-size: 1rem;
+  }
+
+  @keyframes movingbt {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(60dvw);
+    }
   }
 }

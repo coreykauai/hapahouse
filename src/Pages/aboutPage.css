@@ -2,13 +2,22 @@
   background-image: url("/kira-laktionov-z1PAduRYGQs-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
+  height: 100%;
 }
 
-.about-us {
-  font-size: 23px;
-  margin: 8rem 5rem 0 5rem;
-  position: relative;
-  top: 3rem;
-  color: rgb(0, 0, 0);
-  text-shadow: 0px 0px 15px rgb(255, 255, 255);
+.about-us-title {
+  font-size: 3rem;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(29, 29, 29, 0.524);
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.722);
+}
+
+.about-description {
+  padding: 3rem 2rem 3rem 2rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(29, 29, 29, 0.524);
 }

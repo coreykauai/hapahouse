@@ -1,21 +1,22 @@
 .location-page {
   height: 100%;
-  background-image: url("/kira-laktionov-z1PAduRYGQs-unsplash.jpg");
+  background-image: url("/shawn-kenessey-Gjo5wE-W4oc-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
+  background-position: right;
 }
 
 .location-title {
   font-size: 50px;
   font-weight: 300;
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 0 1rem 0 1rem;
   background-color: rgba(222, 222, 222, 0.7);
 }
 
 .find-us {
-  margin: 5rem 2rem 0 2rem;
+  padding: 5rem 2rem 0 2rem;
   color: rgb(255, 255, 255);
 }
 
@@ -37,4 +38,14 @@
   padding: 15px;
   background-color: black;
   text-align: center;
+  animation: flash 0.7s linear infinite alternate;
+}
+
+@keyframes flash {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }

@@ -16,7 +16,7 @@
 
 .main-pic {
   width: 80%;
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
@@ -26,7 +26,7 @@
 .opener {
   text-align: center;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   margin: 3rem 1rem 2rem 1rem;
   text-shadow: 0 0 10px #ffffffb4;
 }
@@ -69,18 +69,21 @@
 
 .locate-text-lg {
   font-size: 3rem;
+  font-weight: 400;
   margin: 0;
   text-shadow: 0 0 20px black;
 }
 
 .locate-text-sm {
-  font-size: 1.7rem;
+  font-size: 2rem;
+  font-weight: 300;
   margin: 0;
   text-shadow: 0 0 20px black;
 }
 
 .locations-list-title {
   font-size: 30px;
+  font-weight: 400;
   text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.695);
   margin-bottom: 0;
 }
@@ -94,7 +97,8 @@
 }
 
 .location-list {
-  font-size: 28px;
+  font-size: 1.8rem;
+  font-weight: 200;
   padding: 0;
 }
 
