@@ -1,8 +1,9 @@
 .main {
-  background-image: url(/anna-sullivan-MfC0v78kKbo-unsplash.jpg);
+  /* background-image: url(/anna-sullivan-MfC0v78kKbo-unsplash.jpg); */
   background-attachment: fixed;
   background-position: top right;
   background-size: cover;
+  background-color: black;
 }
 
 .first-pic {
@@ -16,7 +17,6 @@
 
 .main-pic {
   width: 80%;
-  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
@@ -26,9 +26,9 @@
 .opener {
   text-align: center;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 400;
   margin: 3rem 1rem 2rem 1rem;
-  text-shadow: 0 0 10px #ffffffb4;
+  color: white;
 }
 
 .pic-er {
@@ -113,32 +113,36 @@
   margin-bottom: 2rem;
 }
 
+.links img {
+  fill: white;
+}
+
 @keyframes bgcolor {
   0% {
-    background-color: #ffabd2bb;
+    background-color: #ffabd2;
   }
   15% {
-    background-color: #ffabd2bb;
+    background-color: #ffabd2;
   }
   25% {
-    background-color: #f94144bb;
+    background-color: #f94144;
   }
   45% {
-    background-color: #f94145bb;
+    background-color: #f94145;
   }
   50% {
-    background-color: #f0f029bb;
+    background-color: #f0f029;
   }
   65% {
-    background-color: #f0f029bb;
+    background-color: #f0f029;
   }
   75% {
-    background-color: #6c8708bb;
+    background-color: #6c8708;
   }
   85% {
-    background-color: #6c8708bb;
+    background-color: #6c8708;
   }
   100% {
-    background-color: #ffabd2bb;
+    background-color: #ffabd2;
   }
 }

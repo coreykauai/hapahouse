@@ -1,10 +1,10 @@
 /* Contact Page */
 
 .contact-page {
-  background-image: url("/nrd-_Xp_PU4xhCU-unsplash.jpg");
+  background-image: url("/bg1.png");
   background-attachment: fixed;
   background-size: cover;
-  background-position: right;
+  background-position: bottom;
   text-align: center;
   height: 100%;
 }
@@ -23,8 +23,8 @@
   background-color: rgba(0, 0, 0, 0.213);
 }
 
-.contact-pics {
-  width: 5rem;
+svg.contact-pics {
+  width: 5em;
 }
 
 .general-questions a {
@@ -45,21 +45,23 @@
   padding-bottom: 2rem;
 }
 
-.mail-to-sell {
+.mail-to-sell a {
   color: black;
   font-size: 2rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: rgba(241, 241, 241, 0.5);
-  padding-bottom: 2rem;
 }
 
 .contact-to-sell {
   color: black;
+  margin-bottom: 0;
 }
 
 .contact-link-mail {
-  width: 3rem;
+  width: 15%;
+  height: 15%;
 }
 
 .contact-link {
@@ -71,4 +73,34 @@
   display: flex;
   gap: 5rem;
   margin: 3rem 0 7rem 0;
+}
+.catalog-pic {
+  margin: 5px 0 0 15px;
+}
+
+.message-pic {
+  margin: 15px 0 0 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .mail-to-sell a,
+  .general-questions a,
+  .request-catalog a,
+  .contact-to-sell {
+    background-color: #ffffff00;
+    color: white;
+  }
+
+  .contact-link img {
+    fill: white;
+  }
+
+  .catalog-pic svg {
+    margin-left: 15px;
+  }
+
+  .contact-title {
+    padding: 0 1rem 0 1rem;
+    background-color: black;
+  }
 }

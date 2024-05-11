@@ -39,12 +39,6 @@ ul {
   width: 7rem;
 }
 
-.overlayer {
-  width: 100%;
-  height: 100%;
-  backdrop-filter: saturate(0) brightness(175%);
-}
-
 .desktop-footer {
   display: none;
 }
@@ -85,7 +79,6 @@ ul {
     margin: 10rem 5rem 8rem 5rem;
     font-size: 5rem;
     font-weight: 300;
-    background-color: rgba(219, 219, 219, 0.562);
   }
 
   .pics-clickable {

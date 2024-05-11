@@ -21,7 +21,7 @@
 
 .nav-menu li a {
   display: block; /* Style links to fill the list item area */
-  color: white; /* Text color */
+  color: rgb(255, 255, 255); /* Text color */
   text-align: center;
   padding: 14px 16px; /* Spacing inside links */
   text-decoration: none;
@@ -77,11 +77,12 @@
   font-size: 30px;
   gap: 3rem;
   padding-left: 0;
+  padding: 1rem 0 0 0;
 }
 
 .mobile-link {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   white-space: nowrap;
 }
 
@@ -98,19 +99,19 @@
   from {
     width: 0px;
     height: 0%;
-    background-color: rgba(238, 130, 238, 0%);
+    background-color: rgba(255, 255, 255, 0);
   }
 
   to {
     width: 75%;
     height: 50%;
-    background-color: #000000d5;
+    background-color: #ffffffed;
   }
 }
 
 @keyframes collapse {
   from {
-    background-color: #000000d5;
+    background-color: #ffffffed;
     width: 75%;
     height: 50%;
     display: block;
@@ -119,7 +120,7 @@
   to {
     height: 0px;
     width: 0px;
-    background-color: rgba(238, 130, 238, 0%);
+    background-color: rgba(255, 255, 255, 0);
     display: none;
   }
 }

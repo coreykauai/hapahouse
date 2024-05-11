@@ -1,7 +1,8 @@
 .about-page {
-  background-image: url("/kira-laktionov-z1PAduRYGQs-unsplash.jpg");
+  background-image: url("/bg3.png");
   background-attachment: fixed;
   background-size: cover;
+  background-position: bottom;
   height: 100%;
 }
 
