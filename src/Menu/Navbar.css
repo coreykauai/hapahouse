@@ -2,7 +2,7 @@
   display: flex;
   overflow: hidden;
   justify-content: space-between;
-  padding: 0 3rem 0 4rem;
+  padding: 0 15px 0 15px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -78,7 +78,6 @@
   font-size: 30px;
   gap: 3rem;
   padding-left: 0;
-  padding: 1rem 0 0 0;
 }
 
 .mobile-link {
@@ -141,6 +140,7 @@
     top: 0;
     left: 0;
     background-color: #858585ac;
+    padding: 0 4rem 0 3rem;
   }
 
   .nav-menu {
