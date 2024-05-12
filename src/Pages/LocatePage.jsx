@@ -44,7 +44,7 @@ export default function LocatePage() {
           </Fade>
           <Fade damping={0.3}>
             <div className="spacer"></div>
-            <a href="http://">
+            <a href="mailto:hapahouse808@gmail.com">
               <p className="sell-hapa">Want to Sell Hapa House products?</p>
             </a>
             <div className="spacer"></div>
