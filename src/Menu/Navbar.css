@@ -104,7 +104,7 @@
 
   to {
     width: 75%;
-    height: 75%;
+    height: 65%;
     background-color: #ffffffed;
   }
 }
@@ -113,7 +113,7 @@
   from {
     background-color: #ffffffed;
     width: 75%;
-    height: 50%;
+    height: 65%;
     display: block;
   }
 
