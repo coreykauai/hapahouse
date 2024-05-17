@@ -88,15 +88,23 @@ export default function HomePage() {
             <h4 className="locations-list-title">Current Locations</h4>
             <ul className="location-list">
               <li>
-                <a href="https://dejavusurf.com/">Dejavu Kapaa & Lihue </a>
+                <a href="https://dejavusurf.com/" target="_blank">
+                  Dejavu Kapaa & Lihue
+                </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/wailuacountrystorekauai/?hl=en">
+                <a
+                  href="https://www.instagram.com/wailuacountrystorekauai/?hl=en"
+                  target="_blank"
+                >
                   Wailua Country Store
                 </a>
               </li>
               <li>
-                <a href="https://www.windwardmall.com/stores/i-mana-ka-oiwi/">
+                <a
+                  href="https://www.windwardmall.com/stores/i-mana-ka-oiwi/"
+                  target="_blank"
+                >
                   I Mana Ka ʻŌiwi - Windward Mall, Oahu
                 </a>
               </li>
@@ -106,18 +114,21 @@ export default function HomePage() {
         <div className="spacer"></div>
         <div className="contact-info">
           <div className="link-container-home">
-            <a href="http://www.instagram.com/hapahouse/">
+            <a href="http://www.instagram.com/hapahouse/" target="_blank">
               <LuInstagram className="links" />
             </a>
 
-            <a href="http://www.facebook.com/hapahouse/">
+            <a href="http://www.facebook.com/hapahouse/" target="_blank">
               <FaFacebookSquare className="links" />
             </a>
           </div>
         </div>
         <div className="spacer"></div>
         <div className="desktop-footer">
-          <a href="http://www.instagram.com/kauaidigitaldesigns">
+          <a
+            href="http://www.instagram.com/kauaidigitaldesigns"
+            target="_blank"
+          >
             <p className="kdd">© KauaiDigitalDesigns</p>
           </a>
         </div>

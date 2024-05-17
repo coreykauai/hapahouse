@@ -20,7 +20,10 @@ export default function ContactPage() {
         <div className="contact-info">
           <div className="general-questions">
             <Fade delay={1000}>
-              <a href="http://www.instagram.com/direct/t/103720997694402">
+              <a
+                href="http://www.instagram.com/direct/t/103720997694402"
+                target="_blank"
+              >
                 <p className="general-questions">General Questions</p>
                 <MdOutlineMessage size={60} className="message-pic" />
               </a>
@@ -28,7 +31,7 @@ export default function ContactPage() {
           </div>
           <div className="request-catalog">
             <Fade delay={1500}>
-              <a href="http://www.instagram.com/direct/t/103720997694402">
+              <a href="mailto:hapahouse808@gmail.com">
                 <p className="general-questions">Request a Catalog</p>
                 <VscBook size={70} className="catalog-pic" />
               </a>
@@ -48,10 +51,10 @@ export default function ContactPage() {
 
         <div className="contact-link-container">
           <Fade delay={2000} triggerOnce={true}>
-            <a href="http://instagram.com/hapahouse">
+            <a href="http://instagram.com/hapahouse" target="_blank">
               <LuInstagram size={70} className="contact-pics" />
             </a>
-            <a href="https://facebook.com/hapahouse">
+            <a href="https://facebook.com/hapahouse" target="_blank">
               <FaFacebookSquare size={70} className="contact-pics" />
             </a>
           </Fade>
@@ -59,7 +62,10 @@ export default function ContactPage() {
       </div>
       <Fade>
         <div className="desktop-footer">
-          <a href="http://www.instagram.com/kauaidigitaldesigns">
+          <a
+            href="http://www.instagram.com/kauaidigitaldesigns"
+            target="_blank"
+          >
             <p className="kdd">© KauaiDigitalDesigns</p>
           </a>
         </div>

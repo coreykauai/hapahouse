@@ -20,6 +20,11 @@
 .products-title {
   font-size: 3rem;
   font-weight: 300;
-  background-color: white;
+  color: white;
   text-align: center;
+  padding-bottom: 5rem;
+}
+
+.products-title-time {
+  font-weight: 400;
 }

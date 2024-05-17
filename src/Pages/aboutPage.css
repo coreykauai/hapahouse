@@ -8,7 +8,7 @@
 
 .about-us-title {
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 300;
   color: white;
   background-color: rgba(29, 29, 29, 0.524);
   margin: 0;
@@ -18,7 +18,7 @@
 
 .about-description {
   padding: 3rem 2rem 3rem 2rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
   background-color: rgba(29, 29, 29, 0.524);
 }

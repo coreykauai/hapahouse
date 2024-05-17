@@ -15,15 +15,20 @@ export default function AboutPage() {
               company located on the tiny island of Kaua‘i. Started from scratch
               just like all of our products. Creating new Clothing, Bags, Hats,
               Keychains, Stickers and more every month! Check out our {""}
-              <a href="http://instagram.com/hapahouse/">Instagram </a> to see or
-              new designs now!
+              <a href="http://instagram.com/hapahouse/" target="_blank">
+                Instagram{" "}
+              </a>{" "}
+              to see or new designs now!
             </p>
           </div>
         </div>
         <div className="spacer"></div>
         <div className="spacer"></div>
         <div className="desktop-footer">
-          <a href="http://www.instagram.com/kauaidigitaldesigns">
+          <a
+            href="http://www.instagram.com/kauaidigitaldesigns"
+            target="_blank"
+          >
             <p className="kdd">© KauaiDigitalDesigns</p>
           </a>
         </div>

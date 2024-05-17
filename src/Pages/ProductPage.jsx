@@ -49,7 +49,9 @@ export default function ProductPage() {
     <div className="product-container">
       <Fade cascade damping={0.2}>
         <div className="spacer"></div>
-        <h1 className="products-title">What we got this MONTH!</h1>
+        <h1 className="products-title">
+          What we got this <span className="products-title-time"> MONTH!</span>
+        </h1>
       </Fade>
       <Fade fraction={0}>
         <div className="products">

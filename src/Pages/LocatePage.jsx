@@ -13,7 +13,7 @@ export default function LocatePage() {
           <Fade cascade damping={0.3}>
             <ul>
               <li>
-                <a href="http://dejavusurf.com">
+                <a href="http://dejavusurf.com" target="_blank">
                   <img
                     src="https://jkannadesign.com/wp-content/uploads/2017/09/Dejavu.jpg"
                     alt=""
@@ -23,7 +23,10 @@ export default function LocatePage() {
               </li>
 
               <li>
-                <a href="https://www.windwardmall.com/stores/i-mana-ka-oiwi/">
+                <a
+                  href="https://www.windwardmall.com/stores/i-mana-ka-oiwi/"
+                  target="_blank"
+                >
                   <img
                     src="/imanakaoiwi.png"
                     alt=""
@@ -32,7 +35,10 @@ export default function LocatePage() {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/wailuacountrystorekauai/?hl=en">
+                <a
+                  href="https://www.instagram.com/wailuacountrystorekauai/?hl=en"
+                  target="_blank"
+                >
                   <img
                     src="/wailuastore.png"
                     alt=""
@@ -53,7 +59,10 @@ export default function LocatePage() {
       </div>
       <Fade>
         <div className="desktop-footer">
-          <a href="http://www.instagram.com/kauaidigitaldesigns">
+          <a
+            href="http://www.instagram.com/kauaidigitaldesigns"
+            target="_blank"
+          >
             <p className="kdd">© KauaiDigitalDesigns</p>
           </a>
         </div>
