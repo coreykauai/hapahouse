@@ -11,14 +11,16 @@ export default function AboutPage() {
           <div className="spacer"></div>
           <div className="about-description">
             <p className="about">
-              Hapa House A Locally owned and operated designer and fabrication
-              company located on the tiny island of Kaua‘i. Started from scratch
-              just like all of our products. Creating new Clothing, Bags, Hats,
-              Keychains, Stickers and more every month! Check out our {""}
+              Hapa House is a locally owned and operated design and fabrication
+              company nestled on the beautiful island of Kaua‘i. From humble
+              beginnings, we craft each of our products with care, embracing the
+              essence of our island home. Our diverse collection includes
+              clothing, bags, hats, keychains, stickers, and more, with new
+              designs unveiled monthly. Follow us on {""}
               <a href="http://instagram.com/hapahouse/" target="_blank">
                 Instagram{" "}
               </a>{" "}
-              to see or new designs now!
+              to discover our latest creations!
             </p>
           </div>
         </div>
