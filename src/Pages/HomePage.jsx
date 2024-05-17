@@ -1,8 +1,8 @@
+import { Fade } from "react-awesome-reveal";
+import { FaFacebookSquare } from "react-icons/fa";
+import { LuInstagram } from "react-icons/lu";
 import { NavLink } from "react-router-dom";
 import Swipers from "../Swiper/Swipers";
-import { Fade } from "react-awesome-reveal";
-import { LuInstagram } from "react-icons/lu";
-import { FaFacebookSquare } from "react-icons/fa";
 
 import "./homePage.css";
 
@@ -97,7 +97,7 @@ export default function HomePage() {
               </li>
               <li>
                 <a href="https://www.windwardmall.com/stores/i-mana-ka-oiwi/">
-                  I Mana Ka ‘Oiwi - Windward Mall, Oahu
+                  I Mana Ka ʻŌiwi - Windward Mall, Oahu
                 </a>
               </li>
             </ul>
