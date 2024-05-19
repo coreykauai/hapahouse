@@ -1,4 +1,6 @@
 import { Fade } from "react-awesome-reveal";
+import { FaFacebookSquare } from "react-icons/fa";
+import { LuInstagram } from "react-icons/lu";
 import "./locatePage.css";
 
 export default function LocatePage() {
@@ -53,6 +55,16 @@ export default function LocatePage() {
             <a href="mailto:hapahouse808@gmail.com">
               <p className="sell-hapa">Want to Sell Hapa House products?</p>
             </a>
+            <div className="spacer"></div>
+            <div className="link-container-locate">
+              <a href="http://www.instagram.com/hapahouse/" target="_blank">
+                <LuInstagram className="links-locate" />
+              </a>
+
+              <a href="http://www.facebook.com/hapahouse/" target="_blank">
+                <FaFacebookSquare className="links-locate" />
+              </a>
+            </div>
             <div className="spacer"></div>
           </Fade>
         </div>

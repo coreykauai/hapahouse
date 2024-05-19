@@ -20,42 +20,43 @@
   font-size: 3rem;
   font-weight: 300;
   color: white;
-  background-color: rgba(0, 0, 0, 0.213);
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 svg.contact-pics {
-  width: 5em;
+  width: 6em;
+  height: 6rem;
 }
 
 .general-questions a {
-  color: black;
+  color: white;
   font-size: 2rem;
   display: flex;
   justify-content: center;
-  background-color: rgba(241, 241, 241, 0.5);
+  background-color: rgba(0, 0, 0, 0.35);
   padding-bottom: 2rem;
 }
 
 .request-catalog a {
-  color: black;
+  color: white;
   font-size: 2rem;
   display: flex;
   justify-content: center;
-  background-color: rgba(241, 241, 241, 0.5);
+  background-color: rgba(0, 0, 0, 0.35);
   padding-bottom: 2rem;
 }
 
 .mail-to-sell a {
-  color: black;
+  color: white;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(241, 241, 241, 0.5);
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 .contact-to-sell {
-  color: black;
+  color: rgb(255, 255, 255);
   margin-bottom: 0;
 }
 
@@ -71,7 +72,7 @@ svg.contact-pics {
 
 .contact-link-container {
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
   margin: 3rem 0 7rem 0;
 }
 .catalog-pic {

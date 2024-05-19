@@ -28,3 +28,13 @@
 .products-title-time {
   font-weight: 400;
 }
+
+.link-container-products {
+  display: flex;
+  gap: 25px;
+}
+
+.links-products {
+  width: 6rem;
+  height: 6rem;
+}

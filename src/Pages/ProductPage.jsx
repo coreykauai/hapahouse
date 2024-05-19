@@ -1,7 +1,8 @@
 import { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
 import { Fade } from "react-awesome-reveal";
-
+import { FaFacebookSquare } from "react-icons/fa";
+import { LuInstagram } from "react-icons/lu";
 import "./productPage.css";
 
 export default function ProductPage() {
@@ -80,6 +81,16 @@ export default function ProductPage() {
             />
           )}
         </div>
+        <div className="link-container-products">
+          <a href="http://www.instagram.com/hapahouse/" target="_blank">
+            <LuInstagram className="links-products" />
+          </a>
+
+          <a href="http://www.facebook.com/hapahouse/" target="_blank">
+            <FaFacebookSquare className="links-products" />
+          </a>
+        </div>
+        <div className="spacer"></div>
         <div className="desktop-footer">
           <a href="http://www.instagram.com/kauaidigitaldesigns">
             <p className="kdd">© KauaiDigitalDesigns</p>

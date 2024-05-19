@@ -46,6 +46,18 @@
   animation: flash 1s linear infinite alternate;
 }
 
+.link-container-locate {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.links-locate {
+  color: black;
+  width: 6rem;
+  height: 6rem;
+}
+
 @keyframes flash {
   0% {
     background-color: black;

@@ -1,4 +1,6 @@
 import { Fade } from "react-awesome-reveal";
+import { FaFacebookSquare } from "react-icons/fa";
+import { LuInstagram } from "react-icons/lu";
 import "./aboutPage.css";
 
 export default function AboutPage() {
@@ -7,24 +9,18 @@ export default function AboutPage() {
       <Fade cascade damping={0.2}>
         <div className="spacer"></div>
         <div className="about-us">
-          <h1 className="about-us-title">The History Of Hapa House</h1>
-          <div className="spacer"></div>
-          <div className="about-description">
-            <p className="about">
-              Hapa House is a locally owned and operated design and fabrication
-              company nestled on the beautiful island of Kaua‘i. From humble
-              beginnings, we craft each of our products with care, embracing the
-              essence of our island home. Our diverse collection includes
-              clothing, bags, hats, keychains, stickers, and more, with new
-              designs unveiled monthly. Follow us on {""}
-              <a href="http://instagram.com/hapahouse/" target="_blank">
-                Instagram{" "}
-              </a>{" "}
-              to discover our latest creations!
-            </p>
-          </div>
+          <img src="/BioHapaHouse1.png" alt="" className="about-img" />
         </div>
-        <div className="spacer"></div>
+
+        <div className="link-container-about">
+          <a href="http://www.instagram.com/hapahouse/" target="_blank">
+            <LuInstagram className="links-about" />
+          </a>
+
+          <a href="http://www.facebook.com/hapahouse/" target="_blank">
+            <FaFacebookSquare className="links-about" />
+          </a>
+        </div>
         <div className="spacer"></div>
         <div className="desktop-footer">
           <a
