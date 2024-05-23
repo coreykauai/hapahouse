@@ -19,7 +19,6 @@ export default function Swipers() {
   return (
     <div>
       <Swiper
-        onClick={routeChange}
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
@@ -35,31 +34,76 @@ export default function Swipers() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/Pics/IMG_4215.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_4210.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Pics/IMG_1147.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_1147.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Pics/IMG_1335.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_1335.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Pics/IMG_4198.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_4196.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Pics/IMG_4195.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_4195.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Pics/IMG_4192.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_1417.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Pics/IMG_1396-Edit.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_1396-Edit.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Pics/IMG_1443-Edit.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_4198.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Pics/IMG_4206.jpg" alt="" className="swiper-pic" />
+          <img
+            src="/Pics/IMG_4206.jpg"
+            alt=""
+            className="swiper-pic"
+            onClick={routeChange}
+          />
         </SwiperSlide>
       </Swiper>
     </div>

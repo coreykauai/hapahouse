@@ -7,6 +7,7 @@ export default function LocatePage() {
   return (
     <div className="location-page">
       <div className="spacer"></div>
+      <div className="spacer"></div>
       <Fade damping={0.3}>
         <h1 className="location-title">We are currently in these stores!</h1>
       </Fade>

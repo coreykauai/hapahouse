@@ -8,9 +8,11 @@ export default function AboutPage() {
     <div className="about-page">
       <Fade cascade damping={0.2}>
         <div className="spacer"></div>
+        <div className="spacer"></div>
         <div className="about-us">
           <img src="/BioHapaHouse1.png" alt="" className="about-img" />
         </div>
+        <div className="spacer"></div>
 
         <div className="link-container-about">
           <a href="http://www.instagram.com/hapahouse/" target="_blank">

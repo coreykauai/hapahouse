@@ -10,7 +10,6 @@ export default function Foota() {
 
     if (bottom) {
       setIsScrolledBottom(true);
-      console.log("at the bottom");
     } else {
       setIsScrolledBottom(false);
     }

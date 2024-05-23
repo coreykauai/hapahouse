@@ -190,3 +190,100 @@ ul {
     }
   }
 }
+
+@media only screen and (min-width: 2000px) {
+  .logo {
+    width: 10rem;
+  }
+
+  .pic-er {
+    width: 300px;
+  }
+
+  .description {
+    font-size: 5rem;
+  }
+
+  .pics-clickable {
+    width: 40rem;
+    height: 45rem;
+  }
+
+  .locate-text-lg {
+    font-size: 5rem;
+  }
+  .locate-text-sm {
+    font-size: 4rem;
+  }
+  .locations-list-title {
+    font-size: 4rem;
+  }
+  .location-list {
+    font-size: 3rem;
+  }
+
+  .products-title {
+    font-size: 5rem;
+    padding-top: 5rem;
+  }
+
+  .location-title {
+    font-size: 5rem;
+    margin-top: 5rem;
+  }
+  .sell-hapa {
+    font-size: 3rem;
+    height: 7rem;
+    align-content: center;
+  }
+
+  .contact-title {
+    margin-top: 20rem;
+    font-size: 8rem;
+  }
+  .mail-to-sell a,
+  .general-questions a,
+  .request-catalog a,
+  .contact-to-sell {
+    font-size: 5rem;
+  }
+  .message-pic {
+    width: 7rem;
+    height: 7rem;
+  }
+  .catalog-pic {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 4rem;
+  }
+  .mail-pic {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .links {
+    width: 10rem;
+    height: 10rem;
+  }
+  .links-products {
+    width: 10rem;
+    height: 10rem;
+  }
+  .links-locate {
+    width: 10rem;
+    height: 10rem;
+  }
+  .links-about {
+    width: 10rem;
+    height: 10rem;
+  }
+  svg.contact-pics {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 5rem;
+  }
+
+  .kdd {
+    font-size: 1.5rem;
+  }
+}

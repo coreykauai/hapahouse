@@ -6,7 +6,7 @@ import Swipers from "../Swiper/Swipers";
 
 import "./homePage.css";
 
-export default function HomePage() {
+export default function HomePage({ setyOffset }) {
   return (
     <div className="main">
       <div className="first-pic">
@@ -36,7 +36,12 @@ export default function HomePage() {
 
           <Fade damping={0.3}>
             <div className="pic-er">
-              <NavLink to="/products">
+              <NavLink
+                to="/products"
+                onClick={() => {
+                  setyOffset(6883);
+                }}
+              >
                 <img
                   src="/Pics/IMG_4217.jpg"
                   alt=""
@@ -66,7 +71,12 @@ export default function HomePage() {
                 <h3>A</h3>
                 <h3>S</h3>
               </div>
-              <NavLink to="/products">
+              <NavLink
+                to="/products"
+                onClick={() => {
+                  setyOffset(20342);
+                }}
+              >
                 <img
                   src="/Pics/Screenshot 2024-04-25 at 6.38.42 PM.png"
                   alt=""

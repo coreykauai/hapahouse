@@ -43,7 +43,7 @@ export default function ContactPage() {
                 <p className="contact-to-sell">
                   Inquire To Sell Hapa House Products
                 </p>
-                <IoIosMail size={70} />
+                <IoIosMail size={70} className="mail-pic" />
               </a>
             </Fade>
           </div>

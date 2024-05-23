@@ -1,9 +1,9 @@
 .about-page {
   height: 100dvh;
   background-image: url("/Hapa House logo BLACK SVG bg.svg");
-  background-size: cover;
+  background-size: 300%;
   background-repeat: no-repeat;
-  background-position: -18rem 18rem;
+  background-position: -25rem -10rem;
   background-color: #ffffff;
 }
 
@@ -30,6 +30,8 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
+  position: fixed;
+  bottom: 5rem;
 }
 
 .links-about {
