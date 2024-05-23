@@ -39,7 +39,7 @@ export default function HomePage({ setyOffset }) {
               <NavLink
                 to="/products"
                 onClick={() => {
-                  setyOffset(6883);
+                  setyOffset(6924.7);
                 }}
               >
                 <img
@@ -74,7 +74,7 @@ export default function HomePage({ setyOffset }) {
               <NavLink
                 to="/products"
                 onClick={() => {
-                  setyOffset(20342);
+                  setyOffset(20342.5);
                 }}
               >
                 <img

@@ -1,8 +1,6 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { useNavigate } from "react-router-dom";
-import { useRef, useState } from "react";
 
 import "normalize.css";
 import "swiper/css";
