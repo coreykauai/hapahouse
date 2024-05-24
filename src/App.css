@@ -192,6 +192,9 @@ ul {
 }
 
 @media only screen and (min-width: 2000px) {
+  .navigation {
+    height: fit-content;
+  }
   .logo {
     width: 10rem;
   }
