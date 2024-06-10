@@ -30,7 +30,7 @@ export default function HomePage({ setyOffset }) {
               <h3>G</h3>
             </div>
             <NavLink to="/products">
-              <img src="/Pics/IMG_1943.JPG" alt="" className="pics-clickable" />
+              <img src="/Pics/IMG_1335.jpg" alt="" className="pics-clickable" />
             </NavLink>
           </div>
 
@@ -39,11 +39,11 @@ export default function HomePage({ setyOffset }) {
               <NavLink
                 to="/products"
                 onClick={() => {
-                  setyOffset(6924.7);
+                  setyOffset(6979.5);
                 }}
               >
                 <img
-                  src="/Pics/IMG_4217.jpg"
+                  src="/Pics/IMG_4206.jpg"
                   alt=""
                   className="pics-clickable"
                 />
@@ -74,7 +74,7 @@ export default function HomePage({ setyOffset }) {
               <NavLink
                 to="/products"
                 onClick={() => {
-                  setyOffset(20342.5);
+                  setyOffset(19534.5);
                 }}
               >
                 <img

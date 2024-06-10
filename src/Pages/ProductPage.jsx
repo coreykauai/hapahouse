@@ -28,8 +28,6 @@ export default function ProductPage() {
     "/Pics/IMG_4192.jpg",
     "/Pics/IMG_4193.jpg",
     "/Pics/IMG_4194.jpg",
-    "/Pics/IMG_4195.jpg",
-    "/Pics/IMG_4196.jpg",
     "/Pics/IMG_4197.jpg",
     "/Pics/IMG_4198.jpg",
     "/Pics/IMG_4200.jpg",
@@ -51,6 +49,16 @@ export default function ProductPage() {
     "/Pics/IMG_4196.jpg",
     "/Pics/IMG_4195.jpg",
     "/Pics/Screenshot 2024-04-25 at 6.38.42 PM.png",
+    "/Pics/bag2.png",
+    "/Pics/hats2.png",
+    "/Pics/hatone.jpeg",
+    "/Pics/hat5.png",
+    "/Pics/hat6.png",
+    "/Pics/hat4.png",
+    "/Pics/hapalogohat.png",
+    "/Pics/hapahat.png",
+    "/Pics/fishhats.png",
+    "/Pics/buttons.png",
   ];
 
   const openImageViewer = useCallback((index) => {
