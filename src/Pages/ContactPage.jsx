@@ -20,10 +20,7 @@ export default function ContactPage() {
         <div className="contact-info">
           <div className="general-questions">
             <Fade delay={1000}>
-              <a
-                href="http://www.instagram.com/direct/t/103720997694402"
-                target="_blank"
-              >
+              <a href="https://ig.me/m/hapahouse" target="_blank">
                 <p className="general-questions">General Questions</p>
                 <MdOutlineMessage size={60} className="message-pic" />
               </a>
@@ -31,7 +28,7 @@ export default function ContactPage() {
           </div>
           <div className="request-catalog">
             <Fade delay={1500}>
-              <a href="mailto:hapahouse808@gmail.com">
+              <a href="https://ig.me/m/hapahouse" target="_blank">
                 <p className="general-questions">Request a Catalog</p>
                 <VscBook size={70} className="catalog-pic" />
               </a>
