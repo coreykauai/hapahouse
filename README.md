@@ -7,3 +7,4 @@ Made with REACT and JAVASCRIPT.
 Contribute to project:
 -Install depedencies (npm install)
 -Test in development mode (npm run dev)
+
